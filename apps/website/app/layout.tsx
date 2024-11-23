@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Admin Panel',
-  description: 'Forever Yours Admin Panel',
+  title: 'Forever Yours',
+  description: 'Creating lasting memories',
 };
 
 export default function RootLayout({
