@@ -65,6 +65,9 @@ yarn build:shared
 
 3. Start the applications you need:
 ```bash
+# Run all applications together
+yarn dev
+
 # Run admin panel
 yarn dev:admin
 
