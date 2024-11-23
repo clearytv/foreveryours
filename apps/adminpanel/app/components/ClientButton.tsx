@@ -8,13 +8,14 @@ interface ClientButtonProps {
 }
 
 export function ClientButton({ children }: ClientButtonProps) {
-  const handleClick = React.useCallback(() => {
-    console.log('clicked');
-  }, []);
-
   return (
-    <Button onClick={handleClick}>
-      {children}
-    </Button>
+    <div className="space-x-4">
+      <Button 
+        variant="primary"
+        onClick={() => console.log('View Orders clicked')}
+      >
+        {children}
+      </Button>
+    </div>
   );
 } 

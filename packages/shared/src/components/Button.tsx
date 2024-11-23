@@ -1,28 +1,36 @@
 'use client';
 
-import React from 'react';
+import React, { ButtonHTMLAttributes } from 'react';
 
-export interface ButtonProps {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
-  onClick?: () => void;
-  variant?: 'primary' | 'secondary';
+  variant: 'primary' | 'secondary';
+  className?: string;
 }
 
-export const Button: React.FC<ButtonProps> = ({ 
-  children, 
-  onClick, 
-  variant = 'primary' 
-}) => {
-  return (
-    <button
-      onClick={onClick}
-      className={`px-4 py-2 rounded ${
-        variant === 'primary' 
-          ? 'bg-blue-500 text-white hover:bg-blue-600' 
-          : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
-      } transition-colors`}
-    >
-      {children}
-    </button>
-  );
-}; 
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  function Button({ 
+    children, 
+    variant = 'primary',
+    className = '',
+    ...props 
+  }, ref) {
+    const variantStyles = {
+      primary: 'bg-blue-500 hover:bg-blue-600 text-white',
+      secondary: 'bg-gray-500 hover:bg-gray-600 text-white',
+    } as const;
+
+    return (
+      <button
+        ref={ref}
+        type="button"
+        className={`px-4 py-2 rounded ${variantStyles[variant]} ${className}`}
+        {...props}
+      >
+        {children}
+      </button>
+    );
+  }
+);
+
+Button.displayName = 'Button'; 

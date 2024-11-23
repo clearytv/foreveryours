@@ -6,11 +6,14 @@ import { Button } from '@foreveryours/shared';
 export function ClientButtons() {
   return (
     <div className="space-x-4">
-      <Button onClick={() => console.log('View Orders clicked')}>
+      <Button 
+        variant="primary"
+        onClick={() => console.log('View Orders clicked')}
+      >
         View Orders
       </Button>
       <Button 
-        variant="secondary" 
+        variant="secondary"
         onClick={() => console.log('Account Settings clicked')}
       >
         Account Settings
