@@ -1,17 +1,54 @@
-# Forever Yours Monorepo
+# Forever Yours Video Platform
 
-This monorepo contains three Next.js applications and a shared component library, organized in a clean, scalable structure.
+## Initial Setup
 
-## Project Structure
-```
-├── apps/                 # Application projects
-│   ├── website/         # Marketing website (port 3000)
-│   ├── adminpanel/      # Admin dashboard (port 3001)
-│   └── customerportal/  # Customer portal (port 3002)
-├── packages/            # Shared packages
-│   └── shared/         # Shared components and utilities
-└── config/             # Global configuration files
-```
+After cloning this template, follow these steps:
+
+1. Create three Plasmic projects:
+   - Website
+   - Admin Panel
+   - Customer Portal
+
+2. Connect each Plasmic project to its corresponding app directory via GitHub publishing:
+   - Website → `apps/website`
+   - Admin Panel → `apps/adminpanel`
+   - Customer Portal → `apps/customerportal`
+
+3. Get the project IDs and tokens from Plasmic Studio and update them in:
+   - `apps/website/src/plasmic-init.ts`
+   - `apps/adminpanel/src/plasmic-init.ts`
+   - `apps/customerportal/src/plasmic-init.ts`
+
+## Using as a Template
+
+To use this as a template for other projects:
+
+1. Change directory names in `apps/`:
+   - `apps/website` → `apps/your-new-frontend`
+   - `apps/adminpanel` → `apps/your-new-admin`
+   - `apps/customerportal` → `apps/your-new-portal`
+
+2. Update package names in each app's `package.json`:
+   ```json
+   {
+     "name": "@foreveryours/website" → "@yournewproject/frontend"
+     "name": "@foreveryours/adminpanel" → "@yournewproject/admin"
+     "name": "@foreveryours/customerportal" → "@yournewproject/portal"
+   }
+   ```
+
+3. Update root `package.json` scripts:
+   ```json
+   {
+     "scripts": {
+       "dev:web": "yarn workspace @yournewproject/frontend dev",
+       "dev:admin": "yarn workspace @yournewproject/admin dev",
+       "dev:portal": "yarn workspace @yournewproject/portal dev"
+     }
+   }
+   ```
+
+4. Create new Plasmic projects and update IDs/tokens in each `plasmic-init.ts`
 
 ## Development
 
