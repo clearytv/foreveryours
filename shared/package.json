@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "lint": "eslint . --ext .ts,.tsx"
+    "lint": "eslint 'components/**/*.{ts,tsx}' 'utils/**/*.{ts,tsx}' '*.{ts,tsx}' --max-warnings 0"
   },
   "dependencies": {
     "react": "^18.2.0",
