@@ -15,8 +15,12 @@
     "incremental": true,
     "outDir": "dist",
     "declaration": true,
+    "declarationMap": true,
+    "composite": true,
     "baseUrl": ".",
-    "rootDir": "."
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
   "include": ["./**/*.ts", "./**/*.tsx"],
   "exclude": ["node_modules", "dist"]

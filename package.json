@@ -12,12 +12,24 @@
     "dev:web": "yarn workspace @foreveryours/website dev",
     "dev:portal": "yarn workspace @foreveryours/customerportal dev",
     "build:shared": "yarn workspace @foreveryours/shared build",
-    "build": "yarn build:shared"
+    "build:admin": "yarn workspace @foreveryours/adminpanel build",
+    "build:web": "yarn workspace @foreveryours/website build",
+    "build:portal": "yarn workspace @foreveryours/customerportal build",
+    "build": "yarn build:shared && yarn build:admin && yarn build:web && yarn build:portal",
+    "dev": "yarn build:shared && yarn dev:web",
+    "postinstall": "yarn build:shared",
+    "lint": "yarn workspaces run lint",
+    "lint:fix": "yarn workspaces run lint --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
   },
   "resolutions": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.0"
   }
-} 
+}
