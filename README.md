@@ -10,12 +10,18 @@ This monorepo contains three Next.js applications and a shared component library
 
 ## Development
 
-### Install dependencies
+### Initial Setup
+1. Install all dependencies:
 ```bash
 yarn install
 ```
 
-### Run development server
+2. Build shared components (required before running any app):
+```bash
+yarn build:shared
+```
+
+3. Start the applications you need:
 ```bash
 # Run admin panel
 yarn dev:admin
@@ -26,6 +32,8 @@ yarn dev:web
 # Run customer portal
 yarn dev:portal
 ```
+
+Note: You can run multiple applications simultaneously in different terminal windows.
 
 ### Build all packages
 ```bash
