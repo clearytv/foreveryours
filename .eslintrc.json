@@ -1,16 +1,11 @@
 {
   "root": true,
   "extends": [
-    "next/core-web-vitals",
     "prettier"
   ],
   "settings": {
     "next": {
-      "rootDir": ["adminpanel/", "website/", "customerportal/"]
+      "rootDir": ["adminpanel", "website", "customerportal"]
     }
-  },
-  "rules": {
-    "react/react-in-jsx-scope": "off",
-    "react/prop-types": "off"
   }
 } 
