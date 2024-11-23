@@ -11,6 +11,8 @@
   "dependencies": {
     "@foreveryours/shared": "*",
     "@plasmicapp/cli": "^0.1.334",
+    "@plasmicapp/host": "^1.0.207",
+    "@plasmicapp/loader-nextjs": "^1.0.406",
     "@plasmicapp/react-web": "^0.2.354",
     "@plasmicpkgs/lottie-react": "^0.0.198",
     "next": "13.5.6",
