@@ -1,5 +1,4 @@
 import * as React from 'react';
-import type { ButtonProps } from '@foreveryours/shared';
 import { Button } from '@foreveryours/shared';
 
 export default function HomePage() {
