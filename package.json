@@ -15,7 +15,7 @@
     "build:admin": "yarn workspace @foreveryours/adminpanel build",
     "build:portal": "yarn workspace @foreveryours/customerportal build",
     "build": "yarn build:shared && yarn build:web && yarn build:admin && yarn build:portal",
-    "lint": "eslint ."
+    "lint": "eslint . --max-warnings 0 --fix"
   },
   "devDependencies": {
     "concurrently": "^8.0.0",
