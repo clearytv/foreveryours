@@ -170,7 +170,7 @@ function PlasmicHome__RenderFunc(props: {
                 sty.h1
               )}
             >
-              {"FOREVER YOURS (CUSTOMER PORTAL)"}
+              {"LEXIES SMELLY FANNIE\n(CUSTOMER PORTAL)"}
             </h1>
             <div
               data-plasmic-name={"text"}
