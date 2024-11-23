@@ -181,7 +181,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.h1
               )}
             >
-              {"FOREVER YOURZS\n(ADMIN-PANEL)"}
+              {"FOREVER ARSE\n(ADMIN-PANEL)"}
             </h1>
             <div
               data-plasmic-name={"text"}
