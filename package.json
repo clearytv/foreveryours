@@ -20,7 +20,8 @@
     "postinstall": "yarn build:shared",
     "lint": "yarn workspaces run lint",
     "lint:fix": "yarn workspaces run lint --fix",
-    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "dev:all": "concurrently \"yarn dev:web\" \"yarn dev:portal\" \"yarn dev:admin\""
   },
   "resolutions": {
     "react": "^18.2.0",
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.0",
     "eslint-config-prettier": "^9.0.0",
     "postcss": "^8.4.49",
     "prettier": "^3.0.0",
