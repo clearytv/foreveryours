@@ -1,0 +1,23 @@
+{
+  "name": "foreveryours",
+  "private": true,
+  "workspaces": [
+    "adminpanel",
+    "website",
+    "customerportal",
+    "shared"
+  ],
+  "scripts": {
+    "dev:admin": "yarn workspace @foreveryours/adminpanel dev",
+    "dev:web": "yarn workspace @foreveryours/website dev",
+    "dev:portal": "yarn workspace @foreveryours/customerportal dev",
+    "build:shared": "yarn workspace @foreveryours/shared build",
+    "build": "yarn build:shared"
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+} 
