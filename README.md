@@ -1,12 +1,17 @@
 # Forever Yours Monorepo
 
-This monorepo contains three Next.js applications and a shared component library.
+This monorepo contains three Next.js applications and a shared component library, organized in a clean, scalable structure.
 
 ## Project Structure
-- `adminpanel`: Admin dashboard application (port 3000)
-- `website`: Main marketing website (port 3001)
-- `customerportal`: Customer portal application (port 3002)
-- `shared`: Shared components and utilities
+```
+├── apps/                 # Application projects
+│   ├── website/         # Marketing website (port 3000)
+│   ├── adminpanel/      # Admin dashboard (port 3001)
+│   └── customerportal/  # Customer portal (port 3002)
+├── packages/            # Shared packages
+│   └── shared/         # Shared components and utilities
+└── config/             # Global configuration files
+```
 
 ## Development
 
