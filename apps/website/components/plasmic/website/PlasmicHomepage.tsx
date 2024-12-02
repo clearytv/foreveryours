@@ -1044,7 +1044,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.text__y0LE0
                       )}
                     >
-                      {"Your Company Name"}
+                      {"Our Company Name"}
                     </div>
                   </div>
                   <div
