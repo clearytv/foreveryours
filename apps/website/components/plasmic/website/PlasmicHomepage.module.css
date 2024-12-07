@@ -26,12 +26,14 @@
 }
 .desktop {
   background: rgba(253, 253, 253, 1);
-  width: 1440px;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
 }
 ._01Header {
   background: rgba(204, 255, 255, 1);
