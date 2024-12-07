@@ -12,14 +12,35 @@ const PLASMIC = initPlasmicLoader({
   preview: true
 });
 
-// Register the FeatureIconReplace first
+// Register tokens
+PLASMIC.registerToken({
+  name: 'featureCardIconBackground',
+  value: '#E5F6F6',
+  type: 'color',
+  displayName: 'Feature Card Icon Background'
+});
+
+PLASMIC.registerToken({
+  name: 'featureCardText',
+  value: '#4A4A4A',
+  type: 'color',
+  displayName: 'Feature Card Text'
+});
+
+PLASMIC.registerToken({
+  name: 'featureCardDivider',
+  value: '#D8D8D8',
+  type: 'color',
+  displayName: 'Feature Card Divider'
+});
+
+// Register components
 PLASMIC.registerComponent(FeatureIconReplace, {
   name: "FeatureIconReplace",
   props: {},
   styleSections: false
 });
 
-// Then register the FeatureCard
 PLASMIC.registerComponent(FeatureCard, {
   name: "FeatureCard",
   props: {

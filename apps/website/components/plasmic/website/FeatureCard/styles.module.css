@@ -40,7 +40,7 @@
 .iconContainer {
   width: 100px;
   height: 100px;
-  background-color: #E5F6F6;
+  background-color: var(--plasmic-token-featureCardIconBackground);
   border-radius: 50%;
   position: relative;
   display: flex;
@@ -61,7 +61,7 @@
   font-size: 35px;
   line-height: 70px;
   letter-spacing: 2px;
-  color: #4A4A4A;
+  color: var(--plasmic-token-featureCardText);
   font-weight: normal;
   margin: 0;
   transition: all 0.3s ease;
@@ -70,7 +70,7 @@
 .divider {
   width: 170px;
   height: 2px;
-  background-color: #D8D8D8;
+  background-color: var(--plasmic-token-featureCardDivider);
   margin: 8px auto;
   transition: all 0.3s ease;
 }
@@ -80,7 +80,7 @@
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 1px;
-  color: #4A4A4A;
+  color: var(--plasmic-token-featureCardText);
   font-weight: normal;
   margin: 0;
   transition: all 0.3s ease;
@@ -90,4 +90,6 @@
   width: 24px;
   height: 24px;
   transition: all 0.3s ease;
+  fill: var(--plasmic-token-featureCardText);
+  fill-opacity: 0.45;
 } 

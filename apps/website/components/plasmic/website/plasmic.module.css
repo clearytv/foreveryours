@@ -8,6 +8,9 @@
     ((var(--plsmc-wide-width) - var(--plsmc-standard-width)) / 2) -
       var(--plsmc-viewport-gap)
   );
+  --plasmic-token-featureCardIconBackground: #E5F6F6;
+  --plasmic-token-featureCardText: #4A4A4A;
+  --plasmic-token-featureCardDivider: #D8D8D8;
 }
 
 .plasmic_default_styles {

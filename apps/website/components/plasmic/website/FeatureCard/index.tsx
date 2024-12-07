@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import { FeatureIconReplace } from "./FeatureIconReplace";
+import projectcss from "../plasmic.module.css";
 
 interface Props {
   className?: string;
@@ -22,7 +23,7 @@ export const FeatureCard = React.forwardRef<HTMLDivElement, Props>(
 
     return (
       <div
-        className={`${styles.featureCard} ${className || ""} ${themeResetClass || ""}`}
+        className={`${projectcss.plasmic_tokens} ${styles.featureCard} ${className || ""} ${themeResetClass || ""}`}
         ref={ref}
       >
         <div className={styles.iconContainer}>
