@@ -1,13 +1,16 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 import { FeatureCard } from "./components/plasmic/website/FeatureCard";
-import { featureCardMeta } from "./components/plasmic/website/FeatureCard/plasmic-registration";
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
-      id: "rrrHHntIVUK74fetyaY74LkJuFSQ",
-      token: "3FqCtgqnLqhc4JXb1lhGLwJPHm6Dw4|p2wXzpP3YABrkfOvb5jUE8QA"
+      id: "j4GFx2qhbcsQ1YV8DmhFQd",
+      token: "rrrHHntIVUK74fetyaY74LkJuFSQl3FqCtgqnLqhc4JXb1IhGLwJPHm6Dw4lp2wXzpP3YABrkfOvb5jUE8QA"
     }
   ],
   preview: true
-}).registerComponent(FeatureCard, featureCardMeta); 
+}).registerComponent(FeatureCard, {
+  name: "FeatureCard",
+  projectId: "j4GFx2qhbcsQ1YV8DmhFQd",
+  isCode: true
+}); 
