@@ -27,6 +27,7 @@
     "prettier": "^3.0.0"
   },
   "dependencies": {
+    "@plasmicapp/host": "^1.0.207",
     "@plasmicapp/react-web": "^0.2.356"
   }
 }

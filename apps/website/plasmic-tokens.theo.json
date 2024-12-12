@@ -1,0 +1,28 @@
+{
+  "global": {
+    "type": "tokens",
+    "meta": {
+      "source": "plasmic.app"
+    }
+  },
+  "props": [
+    {
+      "name": "featureCardIconBackground",
+      "type": "color",
+      "value": "#E5F6F6",
+      "category": "color"
+    },
+    {
+      "name": "featureCardText",
+      "type": "color",
+      "value": "#4A4A4A",
+      "category": "color"
+    },
+    {
+      "name": "featureCardDivider",
+      "type": "color",
+      "value": "#D8D8D8",
+      "category": "color"
+    }
+  ]
+} 
