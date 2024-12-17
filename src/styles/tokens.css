@@ -1,0 +1,106 @@
+:root {
+  /* Colors */
+  --fy-black: #566167;
+  --fy-grey: #657d84;
+  --fy-greyish: #8ab3b7;
+  --fy-greyfade: #d8dbdd;
+  --fy-blueish: #b7f5f3;
+  --fy-blue: #ccffff;
+  --fy-orange: #ffe1b8;
+  --fy-whiteish: #f5f5f5;
+  --fy-comp-border: #9747ff;
+
+  /* Typography - Global */
+  --font-family-display: 'Amatic SC', cursive;
+  --font-family-body: 'Open Sans', sans-serif;
+
+  /* Buttons */
+  --button-large-font-size: 14px;
+  --button-large-letter-spacing: 1px;
+  --button-large-line-height: 17.5px;
+  --button-large-text-transform: uppercase;
+
+  --button-medium-font-size: 13px;
+  --button-medium-letter-spacing: 1px;
+  --button-medium-line-height: 16.25px;
+  --button-medium-text-transform: uppercase;
+
+  --button-arrow-font-size: 34px;
+  --button-arrow-letter-spacing: 1px;
+  --button-arrow-line-height: 40.8px;
+  --button-arrow-text-transform: capitalize;
+
+  /* Hero Section */
+  --hero-title-font-size: 80px;
+  --hero-title-letter-spacing: 2px;
+  --hero-title-line-height: 80px;
+
+  --hero-subtitle-font-size: 55px;
+  --hero-subtitle-letter-spacing: 3px;
+  --hero-subtitle-line-height: 55px;
+  --hero-subtitle-text-transform: uppercase;
+
+  /* Section Styles */
+  --section-title-font-size: 60px;
+  --section-title-letter-spacing: 2px;
+  --section-title-line-height: 60px;
+
+  --section-description-font-size: 18px;
+  --section-description-letter-spacing: 1px;
+  --section-description-line-height: 36px;
+
+  /* Card Styles */
+  --card-title-font-size: 35px;
+  --card-title-letter-spacing: 2px;
+  --card-title-line-height: 70px;
+  --card-title-text-transform: capitalize;
+
+  --card-description-font-size: 16px;
+  --card-description-letter-spacing: 1px;
+  --card-description-line-height: 32px;
+
+  /* Testimonial Styles */
+  --testimonial-quote-font-size: 46px;
+  --testimonial-quote-letter-spacing: 3px;
+  --testimonial-quote-line-height: 74px;
+
+  --testimonial-author-font-size: 20px;
+  --testimonial-author-letter-spacing: 1px;
+  --testimonial-author-line-height: 40px;
+  --testimonial-author-font-style: italic;
+  --testimonial-author-font-weight: 300;
+
+  /* Package Card Styles */
+  --package-title-font-size: 40px;
+  --package-title-letter-spacing: 2px;
+  --package-title-line-height: 80px;
+
+  --package-price-font-size: 58px;
+  --package-price-letter-spacing: 2px;
+  --package-price-line-height: 58px;
+  --package-price-text-transform: uppercase;
+
+  /* Footer Styles */
+  --footer-title-font-size: 45px;
+  --footer-title-line-height: 45px;
+  --footer-title-text-transform: capitalize;
+
+  --footer-info-font-size: 12px;
+  --footer-info-line-height: 23px;
+  --footer-info-font-weight: 300;
+}
+
+/* Hover state variations */
+.hover {
+  --button-arrow-font-size: 37.32px;
+  --button-arrow-letter-spacing: 1.1px;
+  --button-arrow-line-height: 44.78px;
+
+  --card-title-font-size: 36.02px;
+  --card-title-letter-spacing: 2.06px;
+  --card-title-line-height: 72.05px;
+
+  --card-description-font-size: 16.47px;
+  --card-description-letter-spacing: 1.03px;
+  --card-description-line-height: 32.94px;
+} 

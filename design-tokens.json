@@ -1,0 +1,129 @@
+{
+  "tokens": {
+    "colors": [
+      {
+        "name": "fyBlack",
+        "value": "#566167",
+        "description": "Fill, Border, Button Text, TV Logos"
+      },
+      {
+        "name": "fyGrey",
+        "value": "#657d84",
+        "description": "Menu, Title, Subtitle, CTA Arrow, Logo & Icons & Description"
+      },
+      {
+        "name": "fyGreyish",
+        "value": "#8ab3b7",
+        "description": "Main Divider & Image Border"
+      },
+      {
+        "name": "fyGreyfade",
+        "value": "#d8dbdd",
+        "description": "Replaceable Icons"
+      },
+      {
+        "name": "fyBlueish",
+        "value": "#b7f5f3",
+        "description": "Photo Border (White), Feature Icons Fill & Testimonials BG"
+      },
+      {
+        "name": "fyBlue",
+        "value": "#ccffff",
+        "description": "Header BG, Main BG, Testimonials BG & Footer BG"
+      },
+      {
+        "name": "fyOrange",
+        "value": "#ffe1b8",
+        "description": "Section Divider"
+      },
+      {
+        "name": "fyWhiteish",
+        "value": "#f5f5f5",
+        "description": "Fill Text & Hover Text"
+      },
+      {
+        "name": "fyCompBorder",
+        "value": "#9747ff",
+        "description": "Border for Components"
+      }
+    ],
+    "fonts": [
+      {
+        "name": "display",
+        "family": "Amatic SC",
+        "weights": [400]
+      },
+      {
+        "name": "body",
+        "family": "Open Sans",
+        "weights": [300, 400, 600]
+      }
+    ],
+    "dimensions": [
+      {
+        "name": "fontSize.buttonLarge",
+        "value": "14px"
+      },
+      {
+        "name": "fontSize.buttonMedium",
+        "value": "13px"
+      },
+      {
+        "name": "fontSize.buttonArrow",
+        "value": "34px"
+      },
+      {
+        "name": "fontSize.heroTitle",
+        "value": "80px"
+      },
+      {
+        "name": "fontSize.heroSubtitle",
+        "value": "55px"
+      },
+      {
+        "name": "fontSize.sectionTitle",
+        "value": "60px"
+      },
+      {
+        "name": "fontSize.sectionDescription",
+        "value": "18px"
+      },
+      {
+        "name": "lineHeight.buttonLarge",
+        "value": "17.5px"
+      },
+      {
+        "name": "lineHeight.buttonMedium",
+        "value": "16.25px"
+      },
+      {
+        "name": "lineHeight.buttonArrow",
+        "value": "40.8px"
+      },
+      {
+        "name": "lineHeight.heroTitle",
+        "value": "80px"
+      },
+      {
+        "name": "lineHeight.heroSubtitle",
+        "value": "55px"
+      },
+      {
+        "name": "letterSpacing.tight",
+        "value": "0px"
+      },
+      {
+        "name": "letterSpacing.normal",
+        "value": "1px"
+      },
+      {
+        "name": "letterSpacing.wide",
+        "value": "2px"
+      },
+      {
+        "name": "letterSpacing.wider",
+        "value": "3px"
+      }
+    ]
+  }
+} 
